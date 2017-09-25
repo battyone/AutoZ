@@ -29,8 +29,11 @@ namespace AutoZ
                 DateTime yourLocalTime = TimeZoneInfo.ConvertTime(estTime, estZone, cstZone);
                 Console.WriteLine("Waiting US Time Open Market at " + yourLocalTime.ToShortTimeString());
 
-                while (DateTime.Now <= yourLocalTime)
-                    Thread.Sleep(60000);
+                if (bool.Parse(ConfigurationManager.AppSettings["DebugSkipWait"]) == false)
+                {
+                    while (DateTime.Now <= yourLocalTime)
+                        Thread.Sleep(60000);
+                }
 
                 //Application application = Application.Launch(@"E:\Zorro\Zorro.exe -c IBG REAL");
                 System.Diagnostics.ProcessStartInfo si = new ProcessStartInfo();
