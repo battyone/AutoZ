@@ -1,0 +1,10 @@
+H:\IB\AutoZ\AutoZ\bin\Release\AutoZ.exe.config
+H:\IB\AutoZ\AutoZ\bin\Release\AutoZ.exe
+H:\IB\AutoZ\AutoZ\bin\Release\AutoZ.pdb
+H:\IB\AutoZ\AutoZ\bin\Release\Castle.Core.dll
+H:\IB\AutoZ\AutoZ\bin\Release\TestStack.White.dll
+H:\IB\AutoZ\AutoZ\bin\Release\Castle.Core.xml
+H:\IB\AutoZ\AutoZ\bin\Release\TestStack.White.pdb
+H:\IB\AutoZ\AutoZ\bin\Release\TestStack.White.xml
+H:\IB\AutoZ\AutoZ\obj\Release\AutoZ.exe
+H:\IB\AutoZ\AutoZ\obj\Release\AutoZ.pdb
